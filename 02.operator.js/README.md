@@ -79,11 +79,12 @@ Used to compare two values. They return `true` or `false`.
 
 Used to combine multiple conditions.
 
-| Operator | Name | Description                  |    |                                     |
-| -------- | ---- | ---------------------------- | -- | ----------------------------------- |
-| `&&`     | AND  | Both conditions must be true |    |                                     |
-| `        |      | `                            | OR | At least one condition must be true |
-| `!`      | NOT  | Reverses boolean value       |    |                                     |
+| Operator | Name               | Description                                                        |
+| -------- | ------------------ | ------------------------------------------------------------------ |
+| `&&`     | AND                | Both conditions must be true                                       |
+| `\|\|`   | OR                 | At least one condition must be true                                |
+| `!`      | NOT                | Reverses a boolean value (`true` → `false`, `false` → `true`)      |
+| `??`     | Nullish Coalescing | Returns the right value if the left value is `null` or `undefined` |
 
 ### Example:
 
